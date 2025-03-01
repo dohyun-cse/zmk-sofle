@@ -79,17 +79,17 @@ layers:
   - F10
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - $$mdi:apple-keyboard-control$$
-  - '&'
-  - '*'
-  - (
-  - )
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
   - {t: '=', s: +}
   - $$mdi:keyboard-esc$$
   - (
@@ -100,9 +100,9 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '=', s: +}
   - {t: '-', s: _}
-  - Sft+*
-  - Sft+^
-  - $$mdi:apple-keyboard-control$$
+  - '*'
+  - ^
+  - {t: \, s: '|'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - '{'
@@ -111,13 +111,13 @@ layers:
   - '>'
   - $
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - Sft++
-  - {t: '=', s: +}
-  - Sft+_
-  - {t: '-', s: _}
+  - +
+  - _
+  - {t: ',', s: <}
+  - .
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:volume-off$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - LGUI
@@ -150,12 +150,12 @@ layers:
   - {t: Alt+9, s: Alt+(}
   - {t: Alt+0, s: Alt+)}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - F11
+  - F12
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-esc$$
   - Alt+1
   - Alt+2
@@ -172,8 +172,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - Alt+Ctl+$$mdi:arrow-left-bold$$
   - Alt+Ctl+$$mdi:arrow-down-bold$$
-  - Alt+$$mdi:arrow-up-bold$$
-  - Alt+$$mdi:arrow-right-bold$$
+  - Alt+Ctl+$$mdi:arrow-up-bold$$
+  - Alt+Ctl+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - HOME
