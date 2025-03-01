@@ -59,7 +59,7 @@
 &mkp MCLK   &none   &none   &kp LEFT_GUI  &mo 1   &kp SPACE    &mkp LCLK        &kp ENTER  &mo 2   &kp RIGHT_ALT  &none    &none
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
             display-name = "BASE";
         };
 
