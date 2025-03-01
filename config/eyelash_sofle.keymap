@@ -78,11 +78,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE   &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2    &bt BT_SEL 3       &bt BT_SEL 4    &mmv MOVE_UP     &kp F6     &kp F7         &kp F8       &kp F9     &kp F10    &kp BSPC
-&kp TAB     &kp LA(N6)        &kp LA(N7)        &kp LA(N8)      &kp LA(N9)         &kp LA(N0)      &mmv MOVE_DOWN   &kp SPACE  &kp SPACE      &kp SPACE    &kp SPACE  &kp SPACE  &kp SPACE
-&kp ESC     &kp LC(LA(LEFT))  &kp LC(LA(DOWN))  &kp LA(LC(UP))  &kp LA(LC(RIGHT))  &none           &mmv MOVE_LEFT   &kp LEFT   &kp DOWN       &kp UP       &kp RIGHT  &kp SEMI   &kp SQT
-&kp LSHFT   &kp LA(N1)        &kp LA(N2)        &kp LA(N3)      &kp LA(N4)         &kp LA(N5)      &mmv MOVE_RIGHT  &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp SLASH  &kp RCTRL
-&kp K_MUTE  &none             &none             &kp LGUI        &mo 3              &kp SPACE       &mkp LCLK        &kp RET    &trans         &kp RALT     &none      &none
+&kp TILDE   &bt BT_SEL 0            &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4    &mmv MOVE_UP     &kp F6     &kp F7         &kp F8       &kp F9     &kp F10    &kp BSPC
+&kp TAB     &kp LA(N6)              &kp LA(N7)        &kp LA(N8)        &kp LA(N9)        &kp LA(N0)      &mmv MOVE_DOWN   &kp SPACE  &kp SPACE      &kp SPACE    &kp SPACE  &kp SPACE  &kp SPACE
+&kp ESC     &kp LA(NUMBER_1)        &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(N5)      &mmv MOVE_LEFT   &kp LEFT   &kp DOWN       &kp UP       &kp RIGHT  &kp SEMI   &kp SQT
+&kp LSHFT   &kp LA(LC(LEFT_ARROW))  &kp LA(LC(DOWN))  &kp LA(UP_ARROW)  &kp LA(RIGHT)     &none           &mmv MOVE_RIGHT  &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp SLASH  &kp RCTRL
+&kp K_MUTE  &none                   &none             &kp LGUI          &mo 3             &kp SPACE       &mkp LCLK        &kp RET    &trans         &kp RALT     &none      &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
